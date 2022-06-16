@@ -1,0 +1,54 @@
+.Lists-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lists-count {
+  font-size: 10px;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(29, 29, 29, 0.593);
+}
+
+.list-wrapper {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.Each-list {
+  width: 100%;
+  text-align: left;
+  background-color: #babababc;
+  height: 40px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.del {
+  background-color: rgb(248, 4, 4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.del svg {
+  color: white;
+}
